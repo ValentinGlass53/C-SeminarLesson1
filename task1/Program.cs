@@ -11,4 +11,6 @@ Console.WriteLine("Введите второе число");
 int num2 = int.Parse(Console.ReadLine());
 if(num1 > num2){
     Console.WriteLine("Число " + num1 + " больше, чем " + num2);
-}Console.WriteLine("Число " + num2 + " больше, чем " + num1);
+}else {
+    Console.WriteLine("Число " + num2 + " больше, чем " + num1);
+    }
